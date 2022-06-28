@@ -1,6 +1,10 @@
 .App {
-  text-align: center;
+  background-color: #353353;
+  font-family: 'Rubik', sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
 
 .App-logo {
   height: 40vmin;
@@ -11,17 +15,6 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -35,4 +28,127 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn-main-actv {
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: #F44E76;
+
+}
+
+.bubble-container {
+    background-color: #302F4E;  
+    border-radius: 30px;
+}
+
+.avatar-photo {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background-color: #f1f1f1;
+    
+}
+
+h3, h4, h2, h1, p, span {
+  color: white;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+}
+
+.section-padding {
+  padding: 60px 80px 100px 80px;
+  text-align: center;
+  height: 100vh;
+/*  margin-top: 100px; */
+}
+
+.avatar-centered {
+  position: absolute;
+  left: 500px ;
+}
+
+.avatar-image {
+  overflow: hidden;
+  height: 108px;
+  width: 108px;
+
+}
+
+.nav-links a {
+  text-align: left;
+}
+
+.meter-progress-bar {
+  height: 13px;
+  border-radius: 30px;
+  width: 170px;
+  background-color: white;
+}
+
+.meter-calc-bar#skillcolor1 {
+  background-color: #F44E76;
+}
+
+
+.meter-calc-bar#skillcolor2 {
+  background-color: rgb(108, 108, 229);
+}
+
+.meter-calc-bar {
+  height: 13px;
+  border-radius: 30px;
+  width: 140px;
+  background-color: #FFCE51;
+}
+
+.experience-list-item {
+  padding: 18px;
+
+}
+
+.bg-image {
+  background-image: url("./images/confetti.gif");
+  background-size: cover;
+  height: 100vh;
+  max-height: 100%;
+}
+
+
+.typewriter p {
+  max-width: 200px;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .03em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.text-dark-gray {
+  color: #8b88b1;
+}
+
+.vl{
+  border-left: 2px solid #F44E76;
+  height: 500px;
+  display: grid;
+
 }
