@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.d8a9d4f0.css",
+    "main.js": "/portfolio/static/js/main.48c4110c.js",
+    "static/js/787.47f47c3c.chunk.js": "/portfolio/static/js/787.47f47c3c.chunk.js",
+    "static/media/avatar-meg-1.jpg": "/portfolio/static/media/avatar-meg-1.ef2111d02e671dee9802.jpg",
+    "static/media/works-image-3.png": "/portfolio/static/media/works-image-3.8071d0ed45f32f702800.png",
+    "static/media/user-persona-design-philip-dxc-mg-xd.png": "/portfolio/static/media/user-persona-design-philip-dxc-mg-xd.ff60a031964c72a63084.png",
+    "static/media/works-image-4.png": "/portfolio/static/media/works-image-4.9d59ef4f91baedf3bb0b.png",
+    "static/media/works-image-5.png": "/portfolio/static/media/works-image-5.8d2de02f603a213d0394.png",
+    "static/media/retailersprofile-wireframe-balsam.png": "/portfolio/static/media/retailersprofile-wireframe-balsam.421b0686712e05b54284.png",
+    "static/media/confetti.gif": "/portfolio/static/media/confetti.e00814c4f826f208b382.gif",
+    "index.html": "/portfolio/index.html",
+    "main.d8a9d4f0.css.map": "/portfolio/static/css/main.d8a9d4f0.css.map",
+    "main.48c4110c.js.map": "/portfolio/static/js/main.48c4110c.js.map",
+    "787.47f47c3c.chunk.js.map": "/portfolio/static/js/787.47f47c3c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8a9d4f0.css",
+    "static/js/main.48c4110c.js"
+  ]
+}
